@@ -14,6 +14,8 @@
 		2D59FEDD1C627F6400D2E3B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D59FEDB1C627F6400D2E3B0 /* LaunchScreen.storyboard */; };
 		2D59FEE81C627F6400D2E3B0 /* HelloMetalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59FEE71C627F6400D2E3B0 /* HelloMetalTests.swift */; };
 		2D59FEF31C627F6400D2E3B0 /* HelloMetalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D59FEF21C627F6400D2E3B0 /* HelloMetalUITests.swift */; };
+		2D59FF011C6281A900D2E3B0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D59FF001C6281A900D2E3B0 /* QuartzCore.framework */; };
+		2D59FF031C6288F500D2E3B0 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 2D59FF021C6288F500D2E3B0 /* Shaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2D59FEEE1C627F6400D2E3B0 /* HelloMetalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloMetalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D59FEF21C627F6400D2E3B0 /* HelloMetalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloMetalUITests.swift; sourceTree = "<group>"; };
 		2D59FEF41C627F6400D2E3B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D59FF001C6281A900D2E3B0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2D59FF021C6288F500D2E3B0 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D59FF011C6281A900D2E3B0 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +82,7 @@
 		2D59FEC61C627F6400D2E3B0 = {
 			isa = PBXGroup;
 			children = (
+				2D59FF001C6281A900D2E3B0 /* QuartzCore.framework */,
 				2D59FED11C627F6400D2E3B0 /* HelloMetal */,
 				2D59FEE61C627F6400D2E3B0 /* HelloMetalTests */,
 				2D59FEF11C627F6400D2E3B0 /* HelloMetalUITests */,
@@ -99,6 +105,7 @@
 			children = (
 				2D59FED21C627F6400D2E3B0 /* AppDelegate.swift */,
 				2D59FED41C627F6400D2E3B0 /* ViewController.swift */,
+				2D59FF021C6288F500D2E3B0 /* Shaders.metal */,
 				2D59FED61C627F6400D2E3B0 /* Main.storyboard */,
 				2D59FED91C627F6400D2E3B0 /* Assets.xcassets */,
 				2D59FEDB1C627F6400D2E3B0 /* LaunchScreen.storyboard */,
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D59FF031C6288F500D2E3B0 /* Shaders.metal in Sources */,
 				2D59FED51C627F6400D2E3B0 /* ViewController.swift in Sources */,
 				2D59FED31C627F6400D2E3B0 /* AppDelegate.swift in Sources */,
 			);
